@@ -1,7 +1,7 @@
 {
   "name": "charts-css-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "React components for charts.css",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --watch --mode development",
