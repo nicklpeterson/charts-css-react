@@ -1,0 +1,42 @@
+{
+  "name": "charts-css-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint ./frontend/js --ext .js --ext .jsx"
+  },
+  "author": "Nick Peterson <Nick@LivelyApps.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.3",
+    "eslint": "^7.22.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-security": "^1.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "charts.css": "^0.9.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "prop-types": "^15.7.2"
+  }
+}
